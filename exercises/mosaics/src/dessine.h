@@ -1,5 +1,6 @@
 #ifndef __VEC2I__
 #define __VEC2I__
+
 typedef struct Vec2I {
 	int x, y;
 } Vec2I;
