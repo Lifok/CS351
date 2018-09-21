@@ -13,7 +13,7 @@ Vec2I Vector2I(int x, int y);
 
 void drawSquare(Vec2I coord, int size);
 
-void  drawDiagonalSquare(Vec2I coord, int size);
+void drawDiagonalSquare(Vec2I coord, int size);
 
 void drawMosaic(Vec2I coord, int size, int width, int height);
 
