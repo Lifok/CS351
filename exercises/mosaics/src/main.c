@@ -21,10 +21,10 @@ int main() {
   set_blue();
   drawMosaic(coord, SQUARE_SIZE, WINDOW_WIDTH / SQUARE_SIZE - 2, WINDOW_HEIGHT / SQUARE_SIZE - 2);
 
-  // This is just to keep the window open, we could use X11 events but i'm too lazy for...
+  // This is just to keep the window open, we could use X11 events but i'm too lazy for it...
   do {
       cliquer_xy(&(clickCoord.x), &(clickCoord.y));
   } while (clickCoord.x != -1 && clickCoord.y != -1);
-  // The mouse cannot click at coords (-1,-1), this is kinda hack... :)
+  // The mouse cannot click at coords (-1,-1), this is kind of a hack... :)
   gr_close();
 }
