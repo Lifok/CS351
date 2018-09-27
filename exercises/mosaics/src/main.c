@@ -23,8 +23,8 @@ int main() {
 
   // This is just to keep the window open, we could use X11 events but i'm too lazy for it...
   do {
-      cliquer_xy(&(clickCoord.x), &(clickCoord.y));
-  } while (clickCoord.x != -1 && clickCoord.y != -1);
-  // The mouse cannot click at coords (-1,-1), this is kind of a hack... :)
+      cliquer_xy();
+  } while (1);
+
   gr_close();
 }
